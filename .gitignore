@@ -1,0 +1,37 @@
+# Ignore Python cache and dependency generated files
+__pycache__
+*.py[cod]
+*$py.class
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore editor temporary files and IDE configurations
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# If using pytest or similar, ignore test output
+.pytest_cache/
+htmlcov/
+
+# Ignore local configuration files (if any)
+config/local_settings.py
+.env
+
+# Potentially ignore build products and migration scripts
+dist/
+build/
+*.egg-info
+migrations/*.pyc
+.vector_cache/
+imdb/
+bert-base-uncased/
+model/

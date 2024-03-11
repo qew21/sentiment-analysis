@@ -1,0 +1,22 @@
+# Do not need to copy the entire source code into the image; only relevant files from the directory containing the Dockerfile are needed
+.git
+.gitignore
+.dockerignore
+
+# If the Dockerfile handles copying application code separately, you may choose to ignore the entire source directory
+src/
+
+# Similarly, ignore virtual environments, logs, caches, and build artifacts
+venv/
+.env
+logs/
+__pycache__
+*.pyc
+*.egg-info
+dist/
+build/
+migrations/*.pyc
+
+# If static files are being generated directly within the image, you can ignore the local static resources directory
+docker/
+imdb/

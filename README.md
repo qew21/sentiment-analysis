@@ -1,4 +1,4 @@
-# Sentiment Analysis Using Transform
+# Sentiment Analysis Using Transformer
 
 [BERT base model (uncased)](https://huggingface.co/google-bert/bert-base-uncased)
 
